@@ -1,0 +1,147 @@
+
+* {
+	margin:0px;
+	padding:0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body {
+
+  background: linear-gradient(9deg, rgb(211, 217, 231), rgb(175, 186, 206));
+  background: -webkit-linear-gradient(9deg, rgb(211, 217, 231), rgb(175, 186, 206));
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  
+
+}
+
+
+.biggest {
+	margin: 80px 10%;
+}
+
+
+/* Start Navigation here */
+.nav {
+	background-color:#fff;
+	min-width: 160px;
+	min-height: 470px;
+	float:left;
+	position: relative;
+	padding:0px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+
+
+}
+.nav ul {
+	margin:0;
+	padding: 0;
+}
+.nav ul li {
+	list-style: none;
+	padding:20px 0px;
+}
+
+.nav ul li a {
+	display: block;
+	padding: 0px 11px;
+	text-decoration: none;
+	color:#BEBEC0;
+	font-weight: 400;
+	font-size: 14px;
+
+}
+.nav ul li a i {
+	display:block;
+}
+
+hr {
+	padding:25px 5px;
+	background-color: #031DD2;
+	position: absolute;
+	display:block;
+	top: 26%;
+    left: 0px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	
+}
+
+.nav ul .move2:hover ~ hr {
+	top:41%;
+}
+
+.nav ul .move3:hover ~ hr {
+	top:56%;
+}
+
+.nav ul .move4:hover ~ hr {
+	top:71%;
+}
+
+.fa {
+	color: #BEBEC0;
+}
+/* End Navigation here */
+
+/* Start Introduction */
+.intro {
+	
+	background-color: #1A33D5;
+    min-height: 520px;
+    min-width: 500px;
+    position: absolute;
+    top: -30px;
+    left: 153px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px 2px 10px rgba(0, 0, 0, 0.16);
+	z-index:999;
+
+}
+.intro .par {
+	    text-align: start;
+}
+.intro .par h3 {
+	color:#fff;
+	font-size: 26px;
+	text-shadow: 0 2px 30px rgba(0, 0, 0, .4);
+	margin-bottom: 15px;
+
+}
+
+.intro .par span {
+	color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    opacity: .9;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#signout
+{
+	color:#1A33D5;
+	font-size: 14px;
+    font-weight: 900;
+  	text-shadow: 0 2px 30px #ed9c6a;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+

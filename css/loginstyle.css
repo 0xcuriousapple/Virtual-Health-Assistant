@@ -1,0 +1,86 @@
+.container {
+	position: relative;
+    left: 654px;
+}
+.logged {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.container .login {
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: #fff;
+	width: 350px;
+	height: 470px;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+	padding:40px;
+	padding-top: 80px;
+}
+.container .login p{
+	color:#BEBEC0;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.container .login p span  a  , .container .login p span  {
+	color:#1A33D5;
+	font-weight: 900;
+	font-size:14px;
+	text-decoration:none;
+}
+.container .login input{
+	display:block;
+	margin-top:20px;
+	padding:13px 15px;
+	width:275px;
+	color:#BEBEC0;
+	outline:none;
+	transition: .6s linear;
+	color:#757575;
+	border:0;
+	box-shadow: -9px 7px 17px #ddd;
+	transition: .6s ease-in-out;
+
+}
+.container .login input:focus {
+
+		border:2px solid #4259DD;
+
+}
+.container .login button {
+	border-radius: 50%;
+	width:50px;
+	height:50px;
+	margin: 35px auto ;
+	background-color:#1A33D5;
+	color:#fff;
+	outline:none;
+	display:block;
+	border:0px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	cursor:pointer;
+}
+.container .login button:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.container .login button .fa {
+	color:#fff;
+	font-size:20px;
+
+}
+
+.loginopen {
+	left:0!important;
+}
+#plogin
+{
+	display: block;
+}
+#ploggedin
+{
+	display: none;
+}
